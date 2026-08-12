@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large source PDF
+LANDSLIDE INVENTORY (Field Validated).pdf
+data/raw/*.pdf
+
+# Generated/extracted datasets
+landslide_inventory_extracted.csv
+landslide_inventory_cleaned.csv
+final_training_data.csv
+
+# Trained machine-learning model
+landslide_model.pkl
+
+# Local secrets
+.env
+*.key
+*.pem
+
+# Streamlit
+.streamlit/secrets.toml
