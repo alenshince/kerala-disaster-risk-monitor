@@ -62,3 +62,27 @@ Rule Engine     ML Model
             │
             ▼
        Streamlit UI
+
+     
+## 📂 Project Structure
+
+```text
+kerala-disaster-risk-monitor/
+│
+├── app.py
+├── risk_engine.py
+├── weather_api.py
+├── train_model.py
+├── extract_landslides.py
+├── build_training_data.py
+├── clean_data.py
+├── filter_kerala.py
+├── landslide_data.csv
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── data/
+    └── raw/
+
+    
