@@ -18,7 +18,7 @@ landslide_inventory_cleaned.csv
 final_training_data.csv
 
 # Trained machine-learning model
-landslide_model.pkl
+# landslide_model.pkl (un-ignored for deployment so cloud runtime has the model)
 
 # Local secrets
 .env
